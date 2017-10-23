@@ -1,0 +1,27 @@
+#box-content{
+	background:#50E3C2; 
+	padding: 20px; 
+	width: 100%; 
+	border-radius: 15px;
+	margin:10px;
+	height: 350px;
+	max-height: 350px;
+
+}
+#letter, #main-content, #buttonDiv{
+	padding: 20px;
+}
+.jumbotron {
+	background:#FCF4D9;
+}
+.btn {
+ 	background: #FF7A5A;
+ 	color:#000;
+}
+.btn:hover{
+	background: #432160;
+	color: #fff;
+}
+body {
+    background-image: url("texture.jpg");
+}

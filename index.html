@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>s u r v e y</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<body>
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-3">Laura</h1>
+    <p class="lead">Please fill out this survery and send me a picture of the results</p>
+  </div>
+</div>
+
+<div class="container" id="main-content">
+	<div class="row">
+	<div id="box-content">
+		<div class="text-center" id="results-container">
+			<div class="row">
+				<div class= "col-lg-12 text-center">
+					<h3> lets hang </h3>
+					<form>
+			  			<label class="radio-inline"><input type="radio" name="whenQuestion" value="this weekend" checked> this weekend</label>
+			  			<label class="radio-inline"><input type="radio" name="whenQuestion" value="next weekend"> next weekend</label>
+					</form>
+				</div><!-- close col -->
+			</div><!-- close row -->
+			<div class="row">
+				<div class= "col-lg-12 text-center">
+					<h3> where you wanna hang </h3>
+					<form>
+			  			<label class="radio-inline"><input type="radio" name="locationQuestion" value="My apartment" checked> my apartment</label>
+			  			<label class="radio-inline"><input type="radio" name="locationQuestion" value="Your neck of the woods"> your neck of the woods</label>
+					</form>
+				</div><!-- close col -->
+			</div><!-- close row -->
+			<div class="row">
+				<div class= "col-lg-12 text-center">
+					<h3> what you wanna do </h3>
+					<form>
+			  			<label class="radio-inline"><input type="radio" name="doQuestion" value="watch spoopy movies/anime" checked> watch spoopy movies/anime</label>
+			  			<label class="radio-inline"><input type="radio" name="doQuestion" value="what the ol' devs"> watch the ol' devs</label>
+			  			<label class="radio-inline"><input type="radio" name="doQuestion" value="go out(clubs, bars, etc.)"> go out(clubs, bars, etc.)</label>
+			  			<label class="radio-inline"><input type="radio" name="doQuestion" value="just chill tbh"> just chill tbh</label>
+					</form>
+				</div><!-- close col -->
+			</div><!-- close row -->
+			<!-- submit button -->
+			<div class="row" id="buttonDiv">
+				<div class="col-lg-12 text-center">
+					<input id="submitButton" class="btn" type="submit" value="Submit">
+				</div><!-- closee col -->
+			</div><!-- close row -->
+		</div><!-- results container -->
+	</div>
+	</div>	
+</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
